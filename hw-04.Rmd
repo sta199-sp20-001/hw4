@@ -1,0 +1,40 @@
+---
+title: "HW 04 - Simulation-based Inference"
+subtitle: "Due: Thursday, Apr 09 at 11:59pm EST"
+author: ""
+date: ""
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA, 
+                      message = FALSE, warning = FALSE,
+                      fig.height=6, fig.width = 9, fig.align = "center")
+```
+
+# Packages
+
+```{r packages}
+library(tidyverse)
+library(infer)
+```
+
+# Data
+
+```{r load_data}
+roulette <- read_csv("data/roulette.csv")
+```
+
+# Set seed
+
+```{r set_seed}
+set.seed(5768952)
+```
+
+# Exercises
+
+## Exercise 1
+
+
